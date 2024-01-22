@@ -34,38 +34,53 @@ body {
 
 .article-1 {
     display: flex;
+    width: 100%;
 }
 
-.article-1 div {
-    margin-top: 20px;
-}
 
 .column-article {
     margin-left: 50px;
     background-color: var(--very-dark-blue);
     color: var(--off-white);
+    width: 23vw;
 }
 
 #web3 {
-    width: 127vh;
+    width: 62vw;
 }
 
 .column {
     display: flex;
-
+    margin-top: 30px;
+    width: 1200px;
 }
 
 .column h1 {
     font-size: 55px;
     background-color: beige;
-    width: 400px;
+    width: 680px;
+    height: 250px;
 }
 
 .column div {
-    margin-left: 100px;
-    margin-right: 70px;
-    font-size: 20px;
     background-color: beige;
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.column p {
+    font-size: 25px;
+}
+
+#read-more {
+    background-color: var(--soft-red);
+    margin: 15px;
+    border-style: none;
+    height: 50px;
+    color: var(--off-white);
+    width: 250px;
 }
 
 .number-article {
