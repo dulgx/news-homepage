@@ -14,18 +14,85 @@
 
 body {
     font-family: "Overpass", sans-serif;
-    margin: 200px;
-    margin-top: 100;
-    width: 100%;
+    margin-top: -80px;
+    padding: 80px;
 }
 
 .logo {
     display: flex;
     justify-content: space-between;
-    background-color: beige;
     margin: 50px 0px;
     align-items: center;
-    width: 100%;
 }
 
-.menu {}
+.menu a {
+    text-decoration: none;
+    margin-right: 50px;
+    font-size: 20px;
+    color: var(--dark-grayish-blue);
+}
+
+.article-1 {
+    display: flex;
+}
+
+.article-1 div {
+    margin-top: 20px;
+}
+
+.column-article {
+    margin-left: 50px;
+    background-color: var(--very-dark-blue);
+    color: var(--off-white);
+}
+
+#web3 {
+    width: 127vh;
+}
+
+.column {
+    display: flex;
+
+}
+
+.column h1 {
+    font-size: 55px;
+    background-color: beige;
+    width: 400px;
+}
+
+.column div {
+    margin-left: 100px;
+    margin-right: 70px;
+    font-size: 20px;
+    background-color: beige;
+}
+
+.number-article {
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+.number-article div {
+    display: flex;
+}
+
+.bosoo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.bosoo span {
+    font-size: 50px;
+}
+
+.bosoo p {
+    font-size: 20px;
+}
+
+.attribution {
+    margin: 50px;
+}
