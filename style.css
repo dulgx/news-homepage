@@ -1,0 +1,31 @@
+:root {
+    --soft-orange: hsl(35, 77%, 62%);
+    --soft-red: hsl(5, 85%, 63%);
+    --off-white: hsl(36, 100%, 99%);
+    --grayish-blue: hsl(233, 8%, 79%);
+    --dark-grayish-blue: hsl(236, 13%, 42%);
+    --very-dark-blue: hsl(240, 100%, 5%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Overpass", sans-serif;
+    margin: 200px;
+    margin-top: 100;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    margin: 50px 0px;
+    align-items: center;
+    width: 100%;
+}
+
+.menu {}
